@@ -1,5 +1,5 @@
 export default {
-  name: 'reducer-generator-object-map',
+  name: 'reducer-generator-array-map',
   
   webpack: {
     libraryTarget: 'umd',
