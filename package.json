@@ -1,6 +1,6 @@
 {
   "name": "reducer-generator-array-map",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A redux reducer-generator which builds a redux-reducer from an array of reducers.",
   "main": "dist/reducer-generator-array-map.js",
   "author": "Braden R. Napier",
