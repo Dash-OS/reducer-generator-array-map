@@ -18,14 +18,14 @@ npm install --save reducer-generator-array-map
 ### Simple Example
 
 ```js
-import arrayMapReducer from 'reducer-generator-array-map'
+import createArrayMapReducer from 'reducer-generator-array-map'
 
-const system = arrayMapReducer({ /* initial state */ }, [
+const system = createArrayMapReducer({ /* initial state */ }, [
   (state, action) => action.type === 'SYSTEM_ONLINE'
     ? { ...state, isOnline: true }
     : state,
   (state, action) => action.type === 'SYSTEM_OFFLINE'
     ? { ...state, isOnline: false
     : state
-])
+], /* You may pass extra args that will be passed to the reducer(s) */)
 ```
